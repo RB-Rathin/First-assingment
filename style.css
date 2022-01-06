@@ -1,155 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Open+Sans:ital@1&family=Poppins:ital,wght@1,300&family=Spline+Sans&family=The+Nautigal:wght@700&display=swap");
 body {
-    width: 90%;
-    margin: 0 auto;
-    font-weight: 500;
-    padding-top: 100px;
+  margin: 0;
+  font-weight: 500;
+  padding-top: 100px;
 }
 
 /*Start Header section*/
-h1,
-h2
-{
-    font-size: 55px;
-    font-family: 'Spline Sans', sans-serif;
-    color: blue;
+#continer {
+  width: 90%;
+  margin: 0 auto;
 }
-h3{
-    font-size:25px;
-    font-family: 'Spline Sans', sans-serif;
+h1,
+h2 {
+  font-size: 55px;
+  font-family: "Spline Sans", sans-serif;
+  color: blue;
+}
+h3 {
+  font-size: 25px;
+  font-family: "Spline Sans", sans-serif;
 }
 
 P {
-    font-family: 'Spline Sans', sans-serif;
-    font-size: 19px;
-    width: 65%;
-    font-weight: 500;
-    margin:30px 0px;
-
+  font-family: "Spline Sans", sans-serif;
+  font-size: 19px;
+  width: 65%;
+  font-weight: 500;
+  margin: 30px 0px;
 }
 
 a {
-    text-decoration: none;
-    background-image: linear-gradient(blue, aqua);
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    font-family: 'Spline Sans', sans-serif;
-    color: white;
-
-
+  text-decoration: none;
+  background-image: linear-gradient(blue, aqua);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Spline Sans", sans-serif;
+  color: white;
 }
 
 .first-assingment {
-    display: flex;
-    margin-bottom:100px;
+  display: flex;
+  margin-bottom: 100px;
 }
 
 .heading {
-    border-left: 5px solid red;
-    border-radius: 5px;
-    padding-left: 5px;
+  border-left: 5px solid red;
+  border-radius: 5px;
+  padding-left: 5px;
 }
 
 .heading-color {
-    color: aqua;
+  color: aqua;
 }
 
 span {
-    color: black;
+  color: black;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 /*End Header section*/
+
+
 /*Start my-mission section*/
 .mission-heading {
-    width: 100%;
-    margin-bottom:100px;
-    text-align: center;
+  width: 100%;
+  margin-bottom: 100px;
+  text-align: center;
 }
-.mission-vission-goal{
-    
-    padding:25px;
-    margin:20px;
-    border-radius:10px;
+.mission-vission-goal {
+  padding: 25px;
+  margin: 20px;
+  border-radius: 10px;
 }
-.mission-massage{
-    width:85%;
+.mission-massage {
+  width: 85%;
 }
-#mission{
-    background:rgba(89, 143, 143, 0.288);
+#mission {
+  background: rgba(89, 143, 143, 0.288);
 }
-#vission{
-    background:rgba(83, 78, 78, 0.288);
+#vission {
+  background: rgba(83, 78, 78, 0.288);
 }
-#goals{
-    background:rgba(95, 18, 72, 0.288);
+#goals {
+  background: rgba(95, 18, 72, 0.288);
 }
-.logo{
-    width:50%;
+.logo {
+  width: 50%;
 }
-.my-mission{
-    margin-bottom:100px;
+.my-mission {
+  margin-bottom: 100px;
 }
 
 /*End my-mission section*/
+
+
+
+
 /*Start story section*/
 
-    .story-image-slaider{
-        width:100%;
-
-    }
-    .Storry-image{
-        border-radius:20px;
-        height:400px;
-        
-    }
-    .story-deteils{
-        margin:0 50px;
-    }
+.story-image-slaider {
+  width: 100%;
+}
+.Storry-image {
+  border-radius: 20px;
+  height: 400px;
+}
+.story-deteils {
+  margin: 0 50px;
+}
 /*End story section*/
 /*Start service section*/
-.loging-form{
-    margin-right:100px;
-    width:100%;
-    
+.loging-form {
+  margin-right: 100px;
+  width: 100%;
 }
-.loging{
-    display:flex;
-    flex-direction:column;
-    width:60%;
-    margin:0 auto;
-    
-    background-image:linear-gradient(rgba(0, 255, 255, 0.199),rgba(0, 0, 255, 0.301));
-    border-radius:5px;
-    box-sizing:border-box;
-    box-shadow:0 0 5px 5px rgba(114, 57, 57, 0.356);
-    
-}
-h4{
-    text-align:center;
-    border-bottom:1px solid aqua;
-    padding-bottom: 10px;
-    font-size:30px;
-}
-strong{
-    margin:20px 0px;
-    padding-left:10px;
-    font-size:18px;
-    color:rgba(54, 54, 165, 0.651);
-}
-input{
-    font-size:18px;
-    border:none;
-    padding:5px 0px;
-}
-.loging-titel{
-    font-weight:bold;
-    color:rgba(40, 40, 150, 0.479);
-}
+.loging {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
 
-    
+  background-image: linear-gradient(
+    rgba(0, 255, 255, 0.199),
+    rgba(0, 0, 255, 0.301)
+  );
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px 5px rgba(114, 57, 57, 0.356);
+}
+h4 {
+  text-align: center;
+  border-bottom: 1px solid aqua;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+strong {
+  margin: 20px 0px;
+  padding-left: 10px;
+  font-size: 18px;
+  color: rgba(54, 54, 165, 0.651);
+}
+input {
+  font-size: 18px;
+  border: none;
+  padding: 5px 0px;
+}
+.loging-titel {
+  font-weight: bold;
+  color: rgba(40, 40, 150, 0.479);
+}
 
 /*End service section*/
+
+
+
+/*Start Footer Section*/
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0px;
+  background-color: black;
+}
+.Footer-titel {
+  font-family: "The Nautigal", cursive;
+  color: tomato;
+  font-weight: 900;
+  font-size: 50px;
+}
+b {
+  color: white;
+}
+/*Start Footer Section*/
