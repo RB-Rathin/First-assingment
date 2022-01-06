@@ -23,6 +23,7 @@ P {
     font-size: 19px;
     width: 65%;
     font-weight: 500;
+    margin:30px 0px;
 
 }
 
@@ -40,6 +41,7 @@ a {
 
 .first-assingment {
     display: flex;
+    margin-bottom:100px;
 }
 
 .heading {
@@ -64,11 +66,12 @@ img {
 /*Start my-mission section*/
 .mission-heading {
     width: 100%;
+    margin-bottom:100px;
     text-align: center;
 }
 .mission-vission-goal{
     
-    padding:20px;
+    padding:25px;
     margin:20px;
     border-radius:10px;
 }
@@ -87,5 +90,23 @@ img {
 .logo{
     width:50%;
 }
+.my-mission{
+    margin-bottom:100px;
+}
 
 /*End my-mission section*/
+/*Start story section*/
+
+    .story-image-slaider{
+        width:100%;
+
+    }
+    .Storry-image{
+        border-radius:20px;
+        height:400px;
+        
+    }
+    .story-deteils{
+        margin:0 50px;
+    }
+/*End story section*/
