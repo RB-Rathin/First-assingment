@@ -110,3 +110,46 @@ img {
         margin:0 50px;
     }
 /*End story section*/
+/*Start service section*/
+.loging-form{
+    margin-right:100px;
+    width:100%;
+    
+}
+.loging{
+    display:flex;
+    flex-direction:column;
+    width:60%;
+    margin:0 auto;
+    
+    background-image:linear-gradient(rgba(0, 255, 255, 0.199),rgba(0, 0, 255, 0.301));
+    border-radius:5px;
+    box-sizing:border-box;
+    box-shadow:0 0 5px 5px rgba(114, 57, 57, 0.356);
+    
+}
+h4{
+    text-align:center;
+    border-bottom:1px solid aqua;
+    padding-bottom: 10px;
+    font-size:30px;
+}
+strong{
+    margin:20px 0px;
+    padding-left:10px;
+    font-size:18px;
+    color:rgba(54, 54, 165, 0.651);
+}
+input{
+    font-size:18px;
+    border:none;
+    padding:5px 0px;
+}
+.loging-titel{
+    font-weight:bold;
+    color:rgba(40, 40, 150, 0.479);
+}
+
+    
+
+/*End service section*/
